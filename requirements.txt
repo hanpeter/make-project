@@ -1,0 +1,12 @@
+# For CLI
+# Version is latest at the time of writing
+click==6.7
+
+# For JSON handling for sublime-project file
+simplejson==3.10.0
+
+
+# Transitive libraries
+# This is needed so there are no version conflicts when
+# one downstream library does NOT specify the version it wants,
+# and another one does.
