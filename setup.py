@@ -13,7 +13,7 @@ REPO_URL = 'https://github.com/hanpeter/make-project'
 
 # Github will generate a tarball as long as you tag your releases, so don't
 # forget to tag!
-DOWNLOAD_URL = ''.join((REPO_URL, '/tarball/release/', VERSION))
+DOWNLOAD_URL = ''.join((REPO_URL, '/tarball/', VERSION))
 
 
 setup(
